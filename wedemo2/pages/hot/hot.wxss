@@ -1,0 +1,13 @@
+/* pages/hot/hot.wxss */
+@import "hot-tpl/hot-tpl.wxss";
+.ss{
+margin-bottom: 10rpx;
+margin:10rpx 0 10rpx 6rpx;
+background-color: #fff;
+}
+
+
+.grid-container{
+margin:0rpx 0 0rpx 0rpx;
+background-color: #000;
+}

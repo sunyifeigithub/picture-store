@@ -1,0 +1,28 @@
+<scroll-view class="tab-scoller " scroll-x="true"  scroll-left="{{scrollLength}}">
+      <block wx:for="{{listTab}}" wx:key="code">
+            <view class="tab-view" data-index="{{index}}" id="{{item.code}}" bindtap="reflashData">
+                  <text class="tab-text active" wx:if="{{index == curIndex}}">{{item.text}}</text>
+                  <text class="tab-text" wx:else>{{item.text}}</text>
+
+            </view>
+      </block>
+</scroll-view>
+
+
+
+
+<view class="swiper">
+<swiper catchtap="onSwiperTap" vertical="{{false}}"  indicator-dots="true" autoplay="true" interval="5000" circular="true">
+    <swiper-item>
+      <image src="/images/picture/01.jpg" data-post-id='3' />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/picture/02.jpg" data-post-id='4' />
+    </swiper-item>
+    <swiper-item>
+      <image src="/images/picture/03.jpg" data-post-id='5' />
+    </swiper-item>
+  </swiper>
+</view>
+
+ 

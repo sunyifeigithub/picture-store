@@ -1,0 +1,10 @@
+.tool-item{
+display: flex;
+flex-direction: column;
+padding: 16 20rpx;
+}
+.xx1{
+height: 285rpx;
+width: 360rpx;
+
+}

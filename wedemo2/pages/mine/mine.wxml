@@ -1,0 +1,12 @@
+<!--pages/mine/mine.wxml-->
+<text>我的收藏</text>
+<import src="mine-tpl/mine-tpl.wxml" />
+<view class="grid-container">
+
+<block wx:for="{{postList}}" >
+<view class="ss">
+<template is="postItemTpl" data="{{...item}}"/>
+</view>
+</block>
+
+</view>

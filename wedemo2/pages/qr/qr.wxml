@@ -1,0 +1,5 @@
+<!--pages/qr/qr.wxml-->
+<view class="qr">
+<text>联系作者，长按识别</text>
+<image src="/images/picture/qr.png"></image>
+</view>

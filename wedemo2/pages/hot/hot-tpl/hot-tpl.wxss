@@ -1,0 +1,32 @@
+.tool-item{
+display: flex;
+flex-direction: column;
+padding: 0 0rpx;
+height: 600rpx;
+}
+.xx1{
+width:800rpx;
+
+}
+.xx2{
+padding-left: 30rpx;
+height: 40rpx;
+width: 40rpx;
+}
+.xx3{
+padding-left: 30rpx;
+height: 40rpx;
+width: 40rpx;
+}
+.xx4{
+padding-left: 60rpx;
+height: 40rpx;
+width: 40rpx;
+}
+.line{
+  padding-left: 3rpx;
+  margin: 20rpx;
+  width: 100%;
+  height: 2rpx;
+  background: #D8BFD8;
+}

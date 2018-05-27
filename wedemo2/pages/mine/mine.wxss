@@ -1,0 +1,13 @@
+/* pages/mine/mine.wxss */
+@import "mine-tpl/mine-tpl.wxss";
+.ss{
+float:left;
+margin-bottom: 10rpx;
+margin:4rpx 0 10rpx 6rpx;
+}
+
+
+.grid-container{
+height: 1300rpx;
+margin:5rpx 0 5rpx 6rpx;
+}

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/welcome/welcome",
+    "pages/post/post",
+    "pages/mine/mine",
+    "pages/qr/qr",
+    "pages/hot/hot"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/welcome/welcome",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/post/post",
+        "text": "我的"
+      }
+    ]
+  }
+  
+}

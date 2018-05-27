@@ -1,0 +1,14 @@
+<template name="postItemTpl">
+<view class="tool-item" data-post-id="{{id}}">
+<image class="xx1" src="{{avatar}}"></image>
+<view class="ss" catchtap="onCollectionTap" data-post-id="{{id}}">
+<text>#sss   #ssss #ffff</text>
+<view class='line'></view>
+<image class="xx2" wx:if="{{collectionStatus}}" src="/images/icon/收藏.png" />
+<image class="xx3"wx:else src="/images/icon/like_fill.png" />
+<image class="xx4" bindtap='qp' src="/images/icon/fullscreen.png" />
+
+<text>{{post.collectionNum}}</text>
+</view>
+</view>
+</template>

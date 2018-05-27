@@ -1,0 +1,12 @@
+<!--pages/hot/hot.wxml-->
+
+<import src="hot-tpl/hot-tpl.wxml" />
+<view class="grid-container">
+
+<block wx:for="{{postList}}" >
+<view class="ss">
+<template is="postItemTpl" data="{{...item}}"/>
+</view>
+</block>
+
+</view>
